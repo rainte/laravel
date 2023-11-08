@@ -1,0 +1,33 @@
+{
+    "name": "rainte/laravel",
+    "type": "library",
+    "description": "Laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sean",
+            "email": "sxfmao@163.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rainte\\Laravel\\Providers\\RainteServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Rainte\\Laravel\\": "src"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://mirrors.aliyun.com/composer"
+        }
+    }
+}
